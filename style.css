@@ -32,11 +32,38 @@ li{
 .navbarlinks{
   font-family: 'MadeInChina', sans-serif;
   font-size: 1.6vw;
-  display: block;
-  padding: 2vw;
+  padding: 1.5vw 0vh;
+  display: block; 
   background-color: none;
-  color: white;
+  text-transform: uppercase;
   text-decoration: none;
+  color: white;
+  /* padding: 20px 0px; */
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.navbarlinks:hover{
+  opacity: 1;
+}
+
+.navbarlinks::before{
+  transition: 300ms;
+  height: 0.5vh;
+  content: "";
+  position: absolute;
+  background-color:red ;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 2.9vh;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
 }
 
 /* li .navbarlinks:hover {
@@ -58,6 +85,7 @@ li{
   font-weight: 100;
 }
 
+<<<<<<< Updated upstream
 /** Hover-related CSS **/
 #examples .example .hover {
   font-size: 10px;
@@ -89,5 +117,7 @@ li{
   width: 100%;
   opacity: 1;
 }
+=======
+>>>>>>> Stashed changes
 
 
