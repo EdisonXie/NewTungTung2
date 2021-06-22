@@ -39,14 +39,14 @@ li{
   text-decoration: none;
 }
 
-/* li .navbarlinks:hover {
+/* .navbarlinks:hover{
   font-weight: bold;
-  padding-bottom: 0.5px;
+  padding-bottom: 100px; 
   border-bottom-style: solid ;
   border-bottom-color: #d90429;
-  border-bottom-width: 1px; 
-  transition-duration: 00.75s;
+  border-bottom-width: 10px;  
   width: fit-content; 
+  transition-duration: 0s;
   text-decoration: underline;
   text-decoration-color: #d90429;
 } */
@@ -58,10 +58,10 @@ li{
   font-weight: 100;
 }
 
-/** Hover-related CSS **/
-#examples .example .hover {
-  font-size: 10px;
-  text-align: center;
+/* * Hover-related CSS **/
+/* #examples .example .hover {
+  font-family: 'MadeInChina', sans-serif;
+  font-size: 1.6vw;
   transition: all 0.2s ease-in-out;
   position: relative;
   color: white;
@@ -88,6 +88,9 @@ li{
 #examples .example:hover .hover:before, #examples .example:hover .hover:after {
   width: 100%;
   opacity: 1;
-}
+} */
 
+/* .styling{
+  font-weight: bold;
+} */
 
