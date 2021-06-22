@@ -2,10 +2,7 @@
 body {
   overflow-x: hidden;
   overflow-y: scroll;
-  /*background-image: url("WoodBackground.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;*/
-  background-color:#1c1a1b;
+  background-color:#161516;
   margin: 0;
   height: 100%;
   font-family: OKI;
@@ -14,6 +11,7 @@ body {
 .navbar{
   overflow: hidden;
   padding-right: 10vw;
+  padding-top: 2vh;
   float: right;
 }
 
@@ -66,18 +64,6 @@ li{
   width: 100%;
 }
 
-/* li .navbarlinks:hover {
-  font-weight: bold;
-  padding-bottom: 0.5px;
-  border-bottom-style: solid ;
-  border-bottom-color: #d90429;
-  border-bottom-width: 1px; 
-  transition-duration: 00.75s;
-  width: fit-content; 
-  text-decoration: underline;
-  text-decoration-color: #d90429;
-} */
-
 @font-face{
   font-family: 'MadeInChina';
   src: url(asset/Fonts/MadeInChina.ttf);
@@ -85,39 +71,8 @@ li{
   font-weight: 100;
 }
 
-<<<<<<< Updated upstream
-/** Hover-related CSS **/
-#examples .example .hover {
-  font-size: 10px;
-  text-align: center;
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  color: white;
-  width:100%;
+h1 {
+  color: whitesmoke;
 }
-#examples .example .hover:before, #examples .example .hover:after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  width: 0px;
-  height: 5px;
-  margin: 5px 0 0;
-  transition: all 0.2s ease-in-out;
-  transition-duration: 0.75s;
-  opacity: 0;
-  background-color: #e69500;
-}
-#examples .example .hover.hover-1:before, #examples .example .hover.hover-1:after {
-  left: 0;
-}
-#examples .example:hover {
-  cursor: pointer;
-}
-#examples .example:hover .hover:before, #examples .example:hover .hover:after {
-  width: 100%;
-  opacity: 1;
-}
-=======
->>>>>>> Stashed changes
 
 
