@@ -71,27 +71,62 @@ li{
   font-weight: 100;
 }
 
+@font-face{
+  font-family: 'Akrobat-SemiBold';
+  src: url(asset/Fonts/Akrobat-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
 p {
   color: whitesmoke;
-  font-family: 'MadeInChina', sans-serif;
-  font-weight: bold;
-  font-size: 8vh;
+  font-family: 'Staatliches', cursive;
+  margin-bottom: 5%;
 }
 
 #description{
   position: absolute;
   padding-top: 30vh;
-  padding-left: 10vw;
+  padding-left: 8vw;
+  font-weight: bold;
+  font-size: 8vh;
 }
 
 #logo{
   width: 7%;
-  padding-left: 1.4vw;
+  padding-left: 2vw;
   padding-top: 3vh;
 }
 
 #funtime{
   width: 40%;
   padding-left: 50%;
+}
+
+#footer{
+  color: whitesmoke;
+  font-family: 'Staatliches', cursive;
+  font-weight: normal;
+  font-size: 1.3vw;
+}
+
+#address{
+  padding-left: 3%;
+  padding-bottom: -5vh;
+  float:left;
+}
+
+a{
+  color: whitesmoke;
+}
+
+#phone{
+  padding-left: 20%;
+  float:left;  
+}
+
+#hours{
+  float:left;  
+  padding-left: 25%;
 }
 
