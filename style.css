@@ -11,7 +11,7 @@ body {
 .navbar{
   overflow: hidden;
   padding-right: 10vw;
-  padding-top: 2vh;
+  padding-top: 8vh;
   float: right;
 }
 
@@ -52,7 +52,7 @@ li{
   height: 0.5vh;
   content: "";
   position: absolute;
-  background-color:red ;
+  background-color:#c49c48 ;
 }
 
 .nav-link-ltr::before {
@@ -71,8 +71,28 @@ li{
   font-weight: 100;
 }
 
-h1 {
+p {
   color: whitesmoke;
+  font-family: 'MadeInChina', sans-serif;
+  font-weight: bold;
+  font-size: 8vh;
 }
 
+#description{
+  position: absolute;
+  padding-top: 30vh;
+  padding-left: 10vw;
+}
+
+#logo{
+  width: 100px;
+  padding-left: 1.4vw;
+  padding-top: 3vh;
+}
+
+#funtime{
+  width: 545px;
+  padding-left: 40vw;
+  padding-top: 0vh;
+}
 
