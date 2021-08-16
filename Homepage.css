@@ -16,14 +16,16 @@ body,html {
 /* Code for the navigation bar */
 .navigation-bar{
   position: absolute;
-  margin-left: 45%;
+  margin-left: 40%;
   margin-top: 2%;
   float: right;
   z-index: 4;
+  width: 60%;
 }
 
 /* Code for the list items */
 li{
+  padding-left: 5%;
   float: left;
 }
 
@@ -34,7 +36,7 @@ li{
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  margin-left: 4vh;
+  /* margin-left: 4vh; */
   position: relative;
   opacity: 0.75;
 }
